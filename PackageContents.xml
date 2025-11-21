@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ApplicationPackage 
+	SchemaVersion="1.0" 
+	AppVersion="1.0"
+    ProductCode="{27E147F7-03C6-40A5-A832-3D2E38421AC8}"
+    Name="Power Distribution Projets - Tekenbureau Gent"
+    Icon="./Contents/CUI/Icons/ppa3do64.ico"
+    Helpfile="./Contents/Help/Help.pdf"
+	Author ="Michiel Latruwe"
+	Description = "Bundle Autocad Power Distribution Projects DO"
+>
+ 
+	<CompanyDetails 
+		Name="Power Distribution Projets - Tekenbureau Gent" 
+		Email="michiel.latruwe@infrabel.be"
+	/>
+ 
+	<RuntimeRequirements 
+		OS="Win64" 
+		Platform="AutoCAD*"
+		SeriesMin="R19.0" 
+		SeriesMax="R24.2" 
+		SupportPath="./Contents/Block/;./Contents/Help/" 
+		ToolPalettePath="./Contents/Toolpalettes/" 
+	/>
+<!--
+	<Components>
+	
+		<ComponentEntry 
+		AppName="PpNwDoCui" 
+		version="1.0.0" 
+		ModuleName="./Contents/CUI/PpNwDoCui.cuix"
+		/>
+	
+		<ComponentEntry
+		AppName="BlockUpdate"
+		AppDescription="BlockUpdate"
+		ModuleName="./Contents/Plugin/BlockUpdate.dll"
+		/>
+	
+		<ComponentEntry
+		AppName="CmdTools"
+		AppDescription="CmdTools"
+		ModuleName="./Contents/Plugin/CmdTools.dll"
+		/>
+		
+		<ComponentEntry
+		AppName="LezenEnSchrijvenLegende"
+		AppDescription="LezenEnSchrijvenLegende"
+		ModuleName="./Contents/Plugin/LezenEnSchrijvenLegende.dll"
+		/>
+		
+		<ComponentEntry
+		AppName="PlotPdf"
+		AppDescription="PlotPdf"
+		ModuleName="./Contents/Plugin/PlotPdf.dll"
+		/>
+		
+		<ComponentEntry
+		AppName="TitleBlockManager"
+		AppDescription="TitleBlockManager"
+		ModuleName="./Contents/Plugin/TitleBlockManager.dll"
+		/>
+	
+	</Components>
+	-->
+
+</ApplicationPackage>
