@@ -18,18 +18,24 @@
 	<RuntimeRequirements 
 		OS="Win64" 
 		Platform="AutoCAD*"
-		SeriesMin="R19.0" 
-		SeriesMax="R24.2" 
+		SeriesMin="R25.0" 
+		SeriesMax="R25.1" 
 		SupportPath="./Contents/Block/;./Contents/Help/" 
 		ToolPalettePath="./Contents/Toolpalettes/" 
 	/>
-<!--
+
 	<Components>
 	
 		<ComponentEntry 
 		AppName="PpNwDoCui" 
 		version="1.0.0" 
 		ModuleName="./Contents/CUI/PpNwDoCui.cuix"
+		/>
+
+		<ComponentEntry
+		AppName="BlockEdit"
+		AppDescription="BlockEdit"
+		ModuleName="./Contents/Plugin/BlockEdit.dll"
 		/>
 	
 		<ComponentEntry
@@ -57,12 +63,18 @@
 		/>
 		
 		<ComponentEntry
+		AppName="Project1kV"
+		AppDescription="Project1kV"
+		ModuleName="./Contents/Plugin/Project1kV.dll"
+		/>
+
+		<ComponentEntry
 		AppName="TitleBlockManager"
 		AppDescription="TitleBlockManager"
 		ModuleName="./Contents/Plugin/TitleBlockManager.dll"
 		/>
 	
 	</Components>
-	-->
+
 
 </ApplicationPackage>
