@@ -1,0 +1,15 @@
+# Ignore backup files
+*.bak
+
+# AutoCAD Lock Files
+*.dwl
+*.dwl2
+
+# AutoCAD Backup & Temp Files
+*.bak
+*.sv$
+*.err
+*.log
+
+# Plotting/Publishing logs
+plot.log
