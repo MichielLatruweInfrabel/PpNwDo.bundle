@@ -73,6 +73,12 @@
 		AppDescription="TitleBlockManager"
 		ModuleName="./Contents/Plugin/TitleBlockManager.dll"
 		/>
+
+		<ComponentEntry
+		AppName="ToolPaletteVvdk"
+		AppDescription="ToolPaletteVvdk"
+		ModuleName="./Contents/Plugin/ToolPaletteVvdk.dll"
+		/>
 	
 	</Components>
 
