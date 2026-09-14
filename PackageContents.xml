@@ -38,11 +38,7 @@
 		ModuleName="./Contents/Plugin/BlockEdit.dll"
 		/>
 	
-		<ComponentEntry
-		AppName="BlockUpdate"
-		AppDescription="BlockUpdate"
-		ModuleName="./Contents/Plugin/BlockUpdate.dll"
-		/>
+
 	
 		<ComponentEntry
 		AppName="CmdTools"
