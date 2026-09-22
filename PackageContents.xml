@@ -70,10 +70,22 @@
 		ModuleName="./Contents/Plugin/TitleBlockManager.dll"
 		/>
 
+				<ComponentEntry
+		AppName="ToolPalette"
+		AppDescription="ToolPalette"
+		ModuleName="./Contents/Plugin/ToolPalette.dll"
+		/>
+
 		<ComponentEntry
 		AppName="ToolPaletteVvdk"
 		AppDescription="ToolPaletteVvdk"
 		ModuleName="./Contents/Plugin/ToolPaletteVvdk.dll"
+		/>
+
+		<ComponentEntry
+			AppName="InfrabelSettings"
+			Version="1.0.0"
+			ModuleName="./Contents/Lisp/InfrabelSettings.lsp"
 		/>
 	
 	</Components>
