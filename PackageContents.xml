@@ -26,10 +26,12 @@
 
 	<Components>
 	
-		<ComponentEntry 
-		AppName="PpNwDoCui" 
-		version="1.0.0" 
-		ModuleName="./Contents/CUI/PpNwDoCui.cuix"
+
+
+				<ComponentEntry
+		AppName="CadStandard"
+		AppDescription="CadStandard"
+		ModuleName="./Contents/Plugin/CadStandard.dll"
 		/>
 
 		<ComponentEntry
